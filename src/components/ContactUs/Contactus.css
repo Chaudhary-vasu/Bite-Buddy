@@ -1,0 +1,87 @@
+/* contact-us.css */
+
+/* Container styles */
+/* contact-us.css */
+
+body {
+  background-image: url("../../assets/8704208.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-container {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+  max-width:38rem;
+  margin-top: 15rem;
+  margin-left: 60rem;
+  padding: 20px;
+}
+
+.contact-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styles */
+.contact-form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Input styles */
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding-right: 0%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 1.5rem;
+}
+
+/* Submit button style */
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message style */
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+/* Success message style */
+.success-message {
+  color: green;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feedbackList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedbackItem {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .noFeedback {
+    text-align: center;
+    margin-top: 50px;
+  }
+  

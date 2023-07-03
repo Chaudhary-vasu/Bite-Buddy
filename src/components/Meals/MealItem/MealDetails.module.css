@@ -1,0 +1,39 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mealdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+  .mealdetails img {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .mealdetails h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .mealdetails p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 20px;
+  }
+  
